@@ -29,6 +29,7 @@ async function bootstrap() {
       'http://localhost:3000',      // Create React App
       'http://localhost:3001',      // Alternativo
       'http://localhost:8080',      // Alternativo
+      'https://taw251proyectofrontend-production.up.railway.app', // Frontend en Railway
     ],
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
     credentials: true,

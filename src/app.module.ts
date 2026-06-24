@@ -37,9 +37,3 @@ import { ConfigModule } from '@nestjs/config';
   providers: [ CaptchaService ],
 })
 export class AppModule {}
-   /*type: 'mysql',
-      host: 'localhost',
-      port: 3306,
-      username:'admin',
-      password: 'Admin.2026*',
-      database: 'db_taw251_proyecto',*/

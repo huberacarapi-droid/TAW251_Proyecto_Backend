@@ -78,7 +78,7 @@ export class ProductsController {
   getProductsByCategory(
     @Param('categoryId', ParseIntPipe) categoryId: number,
   ): Promise<Product[] | HttpException> {
-    console.log(categoryId)
+    //console.log(categoryId)
     return this.productsService.getProductsByCategory(categoryId);
   }
 }
